@@ -16,3 +16,4 @@ A key strength of AzCopy over the Azure CLI is that all operations run asynchron
 AzCopy tracks the progress of copy operations, and if an operation fails, it can be restarted close to the point of failure.
 
 As with the Azure CLI, AzCopy makes use of the Azure Storage service to transfer blobs between storage accounts.
+
