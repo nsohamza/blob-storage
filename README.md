@@ -17,3 +17,23 @@ AzCopy tracks the progress of copy operations, and if an operation fails, it can
 
 As with the Azure CLI, AzCopy makes use of the Azure Storage service to transfer blobs between storage accounts.
 
+# Moving azure storage blobs using 
+
+# Az-Copy
+
+The **AzCopy** command is a command-line utility specially created and optimized for moving data in and out of Azure Storage. 
+`Az-copy is a command line tool used to upload, download and manage data in azure storage.` 
+
+Running AzCopy, you can bulk-transfer from the local file system of an on-premises computer to the cloud.
+
+AzCopy performs its operations asynchronously, and can use multiple concurrent threads to read and write data. Additionally, it's fault-tolerant. If a transfer is interrupted for some reason and fails, AzCopy can resume the operation from where it left off after the situation is resolved.
+
+The latest AzCopy version offers two key features for managing Azure Blob Storage:
+
+1. Incremental backups: This allows you to back up only the changes made since the last backup, rather than copying all data every time. It saves time and resources by focusing on what's new or modified.
+2. Synchronization between accounts: You can keep two Blob Storage accounts in sync, ensuring they contain the same version of data. This is useful for maintaining consistency across different storage locations.
+
+**Basic Usage:**
+
+- You use AzCopy by typing commands in the command line (terminal).
+- The basic command structure is: `azcopy copy [source] [destination]`
