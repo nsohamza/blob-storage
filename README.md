@@ -130,7 +130,7 @@ Here’s a step-by-step breakdown of what’s happening in the commands you prov
 8. **Delete Blob from Hot Storage:**
     - `./azcopy remove https://$HOT_STORAGE_NAME.blob.core.windows.net/specifications/specification01.md$HOT_SAS_TOKEN`: Delete the original file (`specification01.md`) from the hot storage to free up space.
 
-### SUMMARY:
+### MY OWN QUICK SUMMARY:
 
 Create environment variables for my storage account and region. one location set up for both. 
 
